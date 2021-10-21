@@ -1,51 +1,32 @@
-{
-    "EmployeeId": "",
-    "CountryKey": "",
-    "ListCountry": [
-        {
-            "Key": "US",
-            "Text": "UNited State"
-        },
-        {
-            "Key": "UK",
-            "Text": "United Kindom"
-        },
-        {
-            "Key": "ES",
-            "Text": "Spain"
-        }
-    ],
-    "Employees":[
-        {
-            "EmployeeID": "1",
-            "LastName": "Garcia Lopez",
-            "FirstName": "Maria",
-            "Country":"US",
-            "City":"Madrid",
-            "PostalCode": "28021",
-            "Orders": [
-                {
-                    "OrderID": "208",
-                    "Freight":"65",
-                    "ShipAddress":"Calle Mayor"
-                }
-            ]
-        },
-        {
-            "EmployeeID": "2",
-            "LastName": "Fernando Dias",
-            "FirstName": "Pedro",
-            "Country":"ES",
-            "City":"Madrid",
-            "PostalCode": "28021",
-            "Orders": [
-                {
-                    "OrderID": "208",
-                    "Freight":"65",
-                    "ShipAddress":"Calle Mayor"
-                }
-            ]
-        }
-    ]
-
-}
+[
+    {
+        "EmployeeID": "1",
+        "LastName": "Garcia Lopez",
+        "FirstName": "Maria",
+        "Country": "US",
+        "City": "Madrid",
+        "PostalCode": "28021",
+        "Orders": [
+            {
+                "OrderID": "208",
+                "Freight": "65",
+                "ShipAddress": "Calle Mayor"
+            }
+        ]
+    },
+    {
+        "EmployeeID": "2",
+        "LastName": "Fernando Dias",
+        "FirstName": "Pedro",
+        "Country": "ES",
+        "City": "Madrid",
+        "PostalCode": "28030",
+        "Orders": [
+            {
+                "OrderID": "208",
+                "Freight": "65",
+                "ShipAddress": "Calle Mayor"
+            }
+        ]
+    }
+]
