@@ -1,0 +1,41 @@
+{
+    "ActiveKey": "OneColumn",
+    "Layout": [
+        {
+            "Key":"OneColumn",
+            "Text": "One COlumn"
+        },
+        {
+            "Key":"TwoColumnsBeginExpanded",
+            "Text": "TwoColumnsBeginExpanded"
+        },
+        {
+            "Key":"TwoColumnsMidExpanded",
+            "Text": "TwoColumnsMidExpanded"
+        },
+        {
+            "Key":"MidColumnFullScreen",
+            "Text": "MidColumnFullScreen"
+        },
+        {
+            "Key":"ThreeColumnsMidExpanded",
+            "Text": "ThreeColumnsMidExpanded"
+        },
+        {
+            "Key":"ThreeColumnsEndExpanded",
+            "Text": "ThreeColumnsEndExpanded"
+        },
+        {
+            "Key":"ThreeColumnsMidExpandedEndHidden",
+            "Text": "ThreeColumnsMidExpandedEndHidden"
+        },
+        {
+            "Key":"ThreeColumnsBeginExpandedEndHidden",
+            "Text": "ThreeColumnsBeginExpandedEndHidden"
+        },
+        {
+            "Key":"EndColumnFullScreen",
+            "Text": "EndColumnFullScreen"
+        }
+    ]
+}
