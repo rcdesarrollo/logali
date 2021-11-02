@@ -12,6 +12,10 @@ server:
       - path: /V2
         url: https://services.odata.org
         destination: Northwind
+      - path: /sap
+        url: http://erp13.sap4practice.com:9037
+        client: '001'
+        destination: logaligroupERP
       ui5:
         path: 
         - /resources
