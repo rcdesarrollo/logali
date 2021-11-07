@@ -1,6 +1,6 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/core/routing/History"
+    "sap/ui/core/routing/History"    
 ], function (Controller, History) {
 
     function _onObjectMatched(oEvent){
@@ -30,6 +30,10 @@ sap.ui.define([
                 oRouter.navTo("RouteMain",true);
             };
 
+        },
+        onClearSignature : function(oEvent){
+            var signature = this.byId("signature");
+            signature.clear();
         }
 
     });
