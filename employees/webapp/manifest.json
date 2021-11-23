@@ -13,7 +13,7 @@
         "ach": "ach",
         "dataSources": {
             "Northwind.svc": {
-                "uri": "/V2/Northwind/Northwind.svc/",
+                "uri": "V2/Northwind/Northwind.svc/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "2.0",
@@ -21,12 +21,16 @@
                 }
             },
             "YSAPUI5_SRV_01": {
-                "uri": "/sap/opu/odata/sap/YSAPUI5_SRV_01/",
+                "uri": "sap/opu/odata/sap/YSAPUI5_SRV_01",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "2.0",
                     "localUri": "localService/YSAPUI5_SRV_01/metadata.xml"
                 }
+            },
+            "jsonLayout": {
+                "uri": "model/json/Layout.json",
+                "type": "JSON"
             }
         }
     },
@@ -96,6 +100,10 @@
                     "useBatch" : false,
                     "defaultUpdateMethod" : "Put"
                 }
+            },
+            "layoutModel" : {
+                "type": "sap.ui.model.json.JSONModel",
+                "dataSource": "jsonLayout"
             }
         },
         "resources": {
